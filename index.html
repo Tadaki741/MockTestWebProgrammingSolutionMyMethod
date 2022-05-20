@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <section id="navContainer">
+                <section id="imageContainer">
+                    <img src="s3821186_photo.jpg" alt="real avatar photo">
+                </section>
+
+                <section id="personalInfoContainer">
+                    <h2 id="fullName">Username: Vo Dai Duong</h2>
+                    <ul>
+                        <li>My birthday: 18/11/2001</li>
+                        <li>Carrer objectives: Become a computer security specialist</li>
+                        <li>My fav quote: "You can never understand everything. But, you should push yourself to understand the system.
+
+                            - Ryan Dahl (Creator of Node JS)"</li>
+                    </ul>
+                </section>
+            </section>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+    </main>
+
+    <!---->
+    <footer>
+        <section>
+            <h3>COVID-19 Information</h3>
+        </section>
+
+        <section id="bottomForm">
+            <form id="submitForm" action="display.php" method="get">
+
+                <select id="selectInForm" name="selectType">
+                    <option value="">Select one</option>
+                    <option value="latest_10_days">latest 10 days</option>
+                    <option value="latest_10_months">latest 10 months</option>
+                </select>
+                <input type="hidden" name="test" value="testValue">
+                <button id="submitButton" name="viewReportButton" type="button">View Report</button>
+                <a id="AboutMeLink">About me</a>
+            </form>
+        </section>
+    </footer>
+
+</body>
+<script src="script.js"></script>
+</html>

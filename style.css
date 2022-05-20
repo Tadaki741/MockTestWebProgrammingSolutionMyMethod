@@ -1,0 +1,101 @@
+
+
+
+@media screen and (min-width:1000px) {
+
+    #fullName{
+        /*
+        "On any device, use your student ID's last 2 digits (i.e. the right-most 2 digits)
+         as the text color’s blue component of your full name"
+         */
+        /*blue color #000ff*/color: #000086;/*so #00086 ?*/
+    }
+
+    #fullName:hover{
+        color: #380086;
+    }
+
+    #imageContainer{
+        border: 2px solid black;
+    }
+
+    #personalInfoContainer{
+        border: 2px solid blue;
+    }
+
+
+    body {
+        background-color: #1bffd7;
+    }
+    #navContainer{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #submitForm > a{
+        display: block;
+    }
+
+
+
+    #tableContainer table tr:nth-child(even){
+        background-color: blue;
+    }
+
+    #tableContainer table tr:nth-child(odd){
+        background-color: #821186;
+    }
+
+}
+
+
+
+
+@media screen and (max-width:999px) {
+
+    #tableContainer > table{
+        border: 2px solid black;
+    }
+
+    #tableContainer table tr:nth-child(even){
+        background-color: blue;
+    }
+
+    #tableContainer table tr:nth-child(odd){
+        background-color: #821186;
+    }
+
+    #fullName{
+        /*
+        "On any device, use your student ID's last 2 digits (i.e. the right-most 2 digits)
+         as the text color’s blue component of your full name"
+         */
+        /*blue color #000ff*/color: #000086;/*so #00086 ?*/
+    }
+
+    #fullName:hover{
+        color: #380086;
+    }
+
+
+    #imageContainer{
+        border: 2px solid black;
+    }
+
+    #personalInfoContainer{
+        border: 2px solid blue;
+    }
+
+    body {
+        background-color: crimson ;
+    }
+    #navContainer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #submitForm > *{
+        display: flex;
+        flex-direction: column;
+    }
+}
